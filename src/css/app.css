@@ -159,11 +159,15 @@ section .content::before {
     box-shadow: 0 12px 29px rgba(141, 81, 181, 0.2);
     margin-bottom: 10px;
 }
+.repo_item i.volunteer{
+  color: #682d8d;
+  font-size:4em;
+}
 .repo_item h3 {
     color: #682d8d;
     margin: 0;
 }
-.repo_item a {
+.repo_item a, .volunteer_link{
     display: block;
     border-radius: 5em;
     background: #682d8d;
@@ -175,8 +179,14 @@ section .content::before {
     margin-top: 5px;
     transition: .2s;
 }
-.repo_item a:hover {
+.repo_item a:hover, .volunteer_link:hover {
     background: #8d51b5;
+    color:white;
+}
+.volunteer_link_outer{
+  float:none;
+  margin:0 auto !important;
+  padding-top:1.5em;
 }
 .repo_item .stat_item {
     display: inline-block;

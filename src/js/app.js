@@ -4,9 +4,9 @@ app = {
 
   init: function () {
     var str_username = "DungeonChat";
-
-    smoothScroll.init()
     
+    smoothScroll.init()
+
     app.getRepos(str_username);
   },
   getObjSize: function(obj){

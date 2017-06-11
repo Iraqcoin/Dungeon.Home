@@ -5,20 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dungeon.Chat</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="src\img\favicon512.png">
-	
+    <link rel="shortcut icon" type="image/x-icon" href="src\img\branding\logo\dark\icon_dark256.png">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
     <!-- static stylesheets -->
+    <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/skeleton.css">
     <link rel="stylesheet" href="src/css/app.css">
   </head>
-  
+
   <body>
 
+
+    <div class="top-logo">
+      <img class="no-interact" src="src\img\branding\logo\logo.svg" alt=""/>
+    </div>
+    <div class="top-header">
+      <div class="top-header_padding">
+        <nav>
+          <a data-scroll href="#section_about">About</a>
+          <a data-scroll href="#section_volunteer">Volunteer</a>
+          <a data-scroll href="#section_repos">Connect</a>
+          <a data-scroll class="last" href="https://blog.dungeon.chat">Blog</a>
+        </nav>
+      </div>
+    </div>
+      <div class="wrapper">
+          <section class="section_landing">
+            <div class="content">
+              <div class="content_inner">
+              <img src="src\img\branding\logo+wordmark\logo+wordmark.svg" alt=""/>
+              <h1>Your new favourite gaming-messenger to chat with your friends.</h1>
+              <h3><strong>Join us</strong> to create the most awesome messenger ever.</h3>
+            </div>
+            </div>
+          </section>
+          <section id="section_about" class="section_about">
+            <div class="content">
+              <div class="content_inner">
+              <h1>Built for privacy.</h1>
+              <h3>Your data belongs to you. Simply host <strong>your own server</strong> and enjoy voice-chat, video-chat and even screensharing. It's easy-peasy!</h3>
+          </div>
+            </div>
+          </section>
+          <section id="section_volunteer" class="section_volunteer">
+            <div class="content">
+              <div class="content_inner">
+              <h1>We need <strong>your</strong> help!</h1>
+              <h3>We are developers, designers and creatives at heart. Creating awesomenessity is our passion & main goal.</h3>
+              <div class="row">
+                <div class="four columns repo_item">
+                  <i class="ion-ios-color-filter-outline volunteer"></i>
+                  <h3>DevOps</h3>
+                </div>
+                <div class="four columns repo_item">
+                  <i class="ion-ios-flame-outline volunteer"></i>
+                  <h3>UI / UX</h3>
+                </div>
+                <div class="four columns repo_item">
+                  <i class="ion-ios-paper-outline volunteer"></i>
+                  <h3>Social Media</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="four columns volunteer_link_outer"><a class="no-interact volunteer_link" href="mailto:info@dungeon.chat">Join us!</a></div>
+              </div>
+              </div>
+            </div>
+          </section>
+          <section id="section_repos" class="section_repos">
+            <div class="content_last">
+              <h1>Our repositories</h1>
+              <div class="repo_container">
+                <div class="row">
+                  <div class="four columns repo_item"><h3>Client</h3><a class="no-interact" href="https://github.com/DungeonChat/Dungeon.Client" target="_blank">GitHub</a></div>
+                  <div class="four columns repo_item"><h3>Home</h3><a class="no-interact" href="https://github.com/DungeonChat/Dungeon.Home" target="_blank">GitHub</a></div>
+                  <div class="four columns repo_item"><h3>Server</h3><a class="no-interact" href="https://github.com/DungeonChat/Dungeon.Server" target="_blank">GitHub</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="twelve columns">
+        <div class="footer_notify">
+          <div class="footer_notify_inner">
+          <div class="ctn-mail">
+            <div class="icon">
+              <i class="material-icons no-interact ion-paper-airplane"></i>
+            </div>
+            <input type="text" name="email">
+          </div>
+          <div class="ctn-button">
+            <input type="submit" value="Notify me!">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+        <div class="hr">
+          <img class="no-interact" src="src\img\landing_page\bubble_footer.svg" alt=""/>
+        </div>
+        <div class="row footer">
+          <div class="three columns">
+            <span class="footer_heading">License</span>
+            <span class="footer_content">
+              Released under the terms of <a class="license" href="https://www.gnu.org/licenses/agpl-3.0.de.html" target="_blank">AGPL-3.0 license</a> unless stated otherwise.
+            </span>
+          </div>
+          <div class="six columns">
+            <!-- placeholder for styling -->
+            <span class="no-interact footer_midplaceholder">.</span>
+          </div>
+          <div class="three columns footer_social">
+            <span class="footer_heading">Get in touch</span>
+            <span class="footer_content">
+              <a class="social" href="https://blog.dungeon.chat" target="_blank"><i class="ion-social-rss"></i>Blog</a>
+              <a class="social" href="https://github.com/DungeonChat" target="_blank"><i class="ion-social-octocat"></i>GitHub</a>
+              <a class="social" href="https://twitter.com/DungeonChat" target="_blank"><i class="ion-social-twitter"></i>Twitter</a>
+              <a class="social" href="mailto:info@dungeon.chat" target="_blank"><i class="ion-ios-email-outline"></i>Send love letters to us!</a>
+            </span>
+          </div>
+        </div>
+      </footer>
       <!-- scripts -->
       <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+      <script src="src\js\smoothscroll.min.js"></script>
       <script src="src/js/app.js"></script>
 
       <script>

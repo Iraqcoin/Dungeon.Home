@@ -311,18 +311,55 @@ footer .hr:before {
 .footer_midplaceholder {
     color: #333333;
 }
-.footer_social a {
+.social{
     display: block;
-    font-weight: 100;
+    font-weight: 100 !important;
 }
-.footer_social a:hover {
+.social:hover {
     color: #fff;
     transition: .2s;
 }
-.footer_social i {
+.social i {
     padding-right: 10px;
 }
 
+#imprint{
+  margin-top:5px;
+}
+
+.imprint{
+  margin-top:200px;
+  padding:4em;
+}
+
+.imprint span{
+  display:block;
+  width:100%;
+}
+
+.imprint-logo{
+  display:block !important;
+}
+
+.imprint h3{
+  color:#682d8d;
+  font-size:1em;
+}
+
+.imprint .volunteer_link{
+  float:left;
+  width:120px;
+  text-align:center;
+  margin-top:3.5rem;
+}
+
+.imprint .contact_types{
+  margin-top:1em;
+}
+
+.contact_types a{
+  color:#682d8d;
+}
 
 /* Responsive Styles */
 @media (max-width: 550px) {

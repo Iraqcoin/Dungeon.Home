@@ -210,7 +210,7 @@ section .content::before {
 
 /* Footer */
 .footer {
-    padding-bottom: 45px;
+    padding: 45px;
 }
 footer {
     width: 100%;
@@ -271,7 +271,7 @@ footer .footer_notify {
     box-shadow: 0 0 87px #8d51b5;
 }
 footer .hr {
-    padding: 90px 0 45px 0;
+    padding: 90px 45px 45px 45px;
     margin: 0 auto;
     max-width: 80em;
     text-align: center;
